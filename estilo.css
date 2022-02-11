@@ -1,0 +1,102 @@
+*{
+    font-family: cursive;
+    font-weight: 100;
+}
+
+body {
+    background-image: url(./fondo-verde-abstracto-geometrico_23-2148360337.webp);
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:rgb(177, 162, 162);
+    margin: 50px 50px;
+    padding: 30px;
+    border: 2px solid rgb(75, 70, 70);
+   outline: 4px solid green;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+
+}
+
+.form__input {
+    width: 100%;
+    margin: 6px 0;
+    padding: 9px;
+    border: none;
+    border-bottom: 3px solid rgb(19, 129, 47);
+    background: transparent;
+    color: #fff;
+}
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid rgb(104, 8, 8);
+
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+.form-img{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 400px;
+    order: 2;
+
+}
+
+.form-img div {
+    padding: 10px;
+}
+
+.img-container div {
+    background-color: #ffd;    
+    border-radius: 70%;
+    text-align: center;
+    padding: 15px;
+ 
+}
+
+.img-container {
+    margin: auto;
+}
+
+.form-img img{
+    width: 80%;
+    margin: auto;
+}
+
+.form input[type="submit"] {
+    background-color: rgb(4, 75, 22);
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(32, 95, 47);
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:focus {
+       background: rgb(77, 177, 122);
+}
+
+.form input[type="submit"]:active {
+    background: linear-gradient(to bottom, #094, #222);
+}
+
+
